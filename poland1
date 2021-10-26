@@ -1,0 +1,24 @@
+System.out.println("Software Development Opportunities, Training provided");
+
+Body
+Text
+
+import java.util.Scanner;
+
+public class PleaseApply {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Are you seeking a career in software development?  Places available on our TechSkilling IT Academy & training program");
+
+        String apply = reader.nextLine();
+
+        if(apply == "yes")
+            System.out.println("Great, follow the link https://www.weareams.com/careers/tech-skilling-by-ams/!");
+        else
+            System.out.println("Feel free to refer a friend");
+
+// Yes, I know, my Java code is awful....
+    }
+}
